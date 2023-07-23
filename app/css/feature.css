@@ -1,0 +1,46 @@
+.feature {
+  background-color: var(--lightgrayishblue);
+  text-align: center;
+}
+
+.feature_container {
+  max-width: 69.375rem;
+  margin: 0 auto;
+  padding-top: 4.375rem;
+  padding-right: 1.5rem;
+  padding-bottom: 4.375rem;
+  padding-left: 1.5rem;
+}
+
+.feature_intro {
+  margin-bottom: 3.75rem;
+  text-align: left;
+}
+
+.feature_grid {
+  display: flex;
+}
+
+.feature_item {
+  padding: 0.9375rem;
+  text-align: left;
+}
+
+.feature_icon {
+  margin-bottom: 1.875rem;
+}
+
+.feature_title {
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 1.15;
+  color: var(--darkblue);
+  margin-bottom: 1rem;
+}
+
+.feature_description {
+  line-height: 1.5;
+  font-size: 0.875rem;
+}
+
+@export: default;

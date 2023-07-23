@@ -179,7 +179,8 @@ a:hover {
   color: var(--limegreen);
 }
 
-.second_button {
+.second_button,
+.third_button {
   color: var(--white);
   margin-top: 20px;
   display: inline-block;
@@ -193,7 +194,8 @@ a:hover {
   transition: opacity 300ms ease-in-out;
 }
 
-.second_button:hover {
+.second_button:hover,
+.third_button:hover {
   opacity: 0.5;
 }
 
@@ -413,13 +415,8 @@ a:hover {
 
 .footer_button {
   color: var(--white);
-  ⁄
-  /* justify-self: end; */
-  transition: opacity 300ms ease-in-out;
-}
-
-.footer_button:hover {
-  opacity: 0.5;
+  text-align: right;
+  justify-self: end;
 }
 
 .footer_copyright {
@@ -585,9 +582,14 @@ a:hover {
     display: none;
   }
 
+  .header {
+    padding: 0 1rem;
+  }
+
   nav {
     padding-top: 1.0625rem;
     padding-bottom: 1.0625rem;
+    justify-content: space-between;
   }
 
   h1 {
@@ -653,5 +655,8 @@ a:hover {
 
   .footer_button {
     margin-bottom: 1.875rem;
+    display: block;
+    justify-self: center;
+    text-align: center;
   }
 }
